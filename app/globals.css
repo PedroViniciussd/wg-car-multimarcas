@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #080808; color: #fff; }
+::selection { background: #E10600; color: #fff; }
+.text-gradient-red {
+  background: linear-gradient(90deg, #fff, #E10600, #D7A536);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px),
+    radial-gradient(circle at top right, rgba(225,6,0,.18), transparent 35%),
+    radial-gradient(circle at bottom left, rgba(215,165,54,.10), transparent 35%);
+  background-size: 44px 44px, 44px 44px, auto, auto;
+}
+.card-border { border: 1px solid rgba(255,255,255,.10); }
